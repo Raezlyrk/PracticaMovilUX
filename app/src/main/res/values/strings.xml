@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hello world</string>
+
+    <!-- login lable  -->
+    <string name="lbl_usuario">Usuario</string>
+    <string name="lbl_contra">Contraseña</string>
+    <string name="btn_autenticar">Validar usuario</string>
+    <string name="val_usuario">El usuario es requerido</string>
+    <string name="val_contra">La contraseña es requerida</string>
+    <string name="msg_fin">Esperando hacer algo</string>
+    <string name="lbl_completo">Nombre completo</string>
+    <string name="lbl_reContra">Repetir contraseña</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btnRegistrar">Registro de usuarios</string>
+    <string-array name="opciones">
+        <item>Nombre de tu mejor amigo</item>
+        <item>Nombre de tu mascota</item>
+        <item>Videojuego favorito</item>
+        <item>Genero musical favorito</item>
+    </string-array>
+
+</resources>

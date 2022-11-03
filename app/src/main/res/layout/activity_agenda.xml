@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    tools:context=".Agenda">
+
+
+    <Button
+        android:id="@+id/btnActividades"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="3dp"
+        android:text="Actividades" />
+
+    <Button
+        android:id="@+id/btnNotas"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="3dp"
+        android:text="Notas" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="242dp"
+        android:text="Inicio" />
+
+    <EditText
+
+        android:id="@+id/FechaIncio"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="481dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:hint="Fecha inicial" />
+
+    <EditText
+        android:id="@+id/FechaFinal"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="534dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:hint="Fecha final" />
+
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="190dp"
+        android:text="Fin" />
+
+    <CheckBox
+        android:id="@+id/BoxEliminar"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+
+        android:layout_marginBottom="122dp"
+        android:text="Eliminar" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="51dp"
+        android:text="Agregar" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="49dp"
+        android:text="Aplicar" />
+
+    <EditText
+        android:id="@+id/Descripcion"
+        android:layout_width="377dp"
+        android:layout_height="97dp"
+        android:hint="Descripcion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="367dp"
+        android:focusable="true"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>
+
